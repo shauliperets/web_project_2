@@ -21,7 +21,6 @@
   font-weight: 500;
   font-size: 60px;
   line-height: 72 px;
-  width: 500px;
   width: 800px;
 }
 
@@ -58,11 +57,6 @@
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
-}
-
-.header__content {
-  display: flex;
-  flex-direction: column;
 }
 
 .header__paragraph {
