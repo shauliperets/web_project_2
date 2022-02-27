@@ -20,9 +20,9 @@
             <img src="./images/logo_coffee_shop.svg" alt="Logo" />
           </div>
           <nav class="nav">
-            <a href="#" class="nav__link">Menu</a>
-            <a href="#" class="nav__link">Recipes</a>
-            <a href="#" class="nav__link">Book a table</a>
+            <a href="#menu" class="nav__link">Menu</a>
+            <a href="#recipes" class="nav__link">Recipes</a>
+            <a href="#reservation" class="nav__link">Book a table</a>
             <a href="#" class="nav__link">Contacts</a>
           </nav>
         </div>
@@ -54,7 +54,7 @@
           </div>
         </div>
       </header>
-      <section class="menu">
+      <section id="menu" class="menu">
         <div class="menu__title-container">
           <h1 class="menu__title">Menu</h1>
           <h2 class="menu__subtitle">
@@ -130,10 +130,8 @@
             </div>
           </div>
         </div>
-
-        <div class="menu__content"></div>
       </section>
-      <section class="recipes">
+      <section id="recipes" class="recipes">
         <div class="recipes__title">Recipes</div>
         <div class="recipes__subtitle">
           Check out some recipes we've collected for your home-brewing
@@ -164,7 +162,7 @@
           </div>
         </div>
       </section>
-      <section class="reservation">
+      <section id="reservation" class="reservation">
         <div class="reservation__title">Book a table</div>
         <div class="reservation__form">
           <div class="reservation__fieldset">
@@ -206,8 +204,54 @@
           </div>
         </div>
       </section>
-      <section class="about"></section>
-      <footer class="footer"></footer>
+      <section class="about">
+        <div class="about__circle_animation_blurred"></div>
+        <div class="about__container">
+          <div class="about__title">About the coffee shop</div>
+          <div class="about__content">
+            <div class="about__paragraph">
+              Our coffee shop is located in the Practicum Library's hall. It
+              features 6 tables and free WiFi.
+            </div>
+
+            <div class="about__paragraph">
+              Our main mission is keeping guests cozy and energized.
+            </div>
+            <div class="about__paragraph">
+              Besides that, we try to reduce our environmental impact — so we
+              don't sell single-use cups. But you can buy one of our reusable
+              cups!
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer class="footer">
+        <div class="footer__content">
+          <div class="footer__left">
+            <div class="footer__logo">
+              <img src="./images/logo_practicum.svg" alt="Logo" />"
+            </div>
+          </div>
+          <div class="footer__right">
+            <div class="footer__social-heading">Social media</div>
+            <div class="footer__list">
+              <div class="footer__list-item">
+                <div class="footer__social-icon">
+                  <img src="./images/facebook_white.svg" />
+                </div>
+                <div class="footer__social-link">Facebook</div>
+              </div>
+              <div class="footer__list-item">
+                <div class="footer__social-icon">
+                  <img src="./images/instagram_white.svg" />
+                </div>
+                <div class="footer__social-link">Instagram</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer__copyright">Shaul Perets</div>
+      </footer>
     </div>
   </body>
 </html>
