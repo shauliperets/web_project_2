@@ -1,7 +1,7 @@
 .form {
 }
 
-.form__container {
+.form__input-container {
   padding: 32px 0 0 0;
   display: flex;
   flex-direction: column;
