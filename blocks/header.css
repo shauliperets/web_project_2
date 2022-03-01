@@ -46,22 +46,17 @@
   flex-direction: column;
 }
 
-.header__paragraph {
+.header__paragraph-wrapper {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 0px 80px 40px 80px;
-
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
-
-  padding: 0;
+  padding: 0px 80px 40px 80px;
   margin: 0;
-
-  border: 1px solid blue;
 }
 
 .header__address {
@@ -72,8 +67,6 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
-
-  border: 1px solid red;
 }
 
 .menu {
