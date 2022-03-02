@@ -22,7 +22,7 @@
 
 .menu__subtitle {
   max-width: 780px;
-  font-family: "Noto Serif";
+  font-family: "Noto Serif", "Times New Roman", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -30,10 +30,8 @@
 }
 
 .menu__cards {
-  display: flex;
-  flex-direction: column;
-  width: 1300px;
-  gap: 100px;
+  max-width: 1300px;
+  text-align: center;
 }
 
 .menu__cards-top {
