@@ -35,21 +35,24 @@
         </nav>
 
         <div class="header__content">
-          <h1 class="header__title">
-            <span class="header__span-accent">Specialty coffee</span>
-            in the Practicum Library
-          </h1>
-          <p class="header__description">
-            Welcome to our study zone! We've got the coffee to energize you and
-            the cozy vibes to help you get creative.
-          </p>
-        </div>
-        <img
-          class="header__image"
-          src="images/inside_coffee_shop.png"
-          alt="Coffee shop header image"
-        />
+          <div>
+            <!--I dot not how arrange them without the extra div. I'm also asked in Slack, but the did told me else solution -->
+            <h1 class="header__title">
+              <span class="header__span-accent">Specialty coffee</span>
+              in the Practicum Library
+            </h1>
+            <p class="header__description">
+              Welcome to our study zone! We've got the coffee to energize you
+              and the cozy vibes to help you get creative.
+            </p>
+          </div>
 
+          <img
+            class="header__image"
+            src="images/inside_coffee_shop.png"
+            alt="Coffee shop header image"
+          />
+        </div>
         <div class="header__paragraph-wrapper">
           <div>
             <h2>Hours:</h2>
@@ -62,14 +65,14 @@
         </div>
       </header>
       <section id="menu" class="menu">
-        <h1 class="menu__title">Menu</h1>
+        <h2 class="menu__title">Menu</h2>
         <p class="menu__subtitle">
           We brew coffee from locally roasted, Fairtrade certified beans and use
           biodegradable cups. All teas from our collection are $2/cup.
         </p>
         <div class="menu__cards">
           <div class="card">
-            <h2 class="card__title">Filter</h2>
+            <h3 class="card__title">Filter</h3>
             <ul class="card__list">
               <li class="card__list-item">
                 <span>Regular (12 oz)</span
@@ -94,8 +97,7 @@
             </ul>
           </div>
           <div class="card">
-            <h2 class="card__title">Espresso</h2>
-
+            <h3 class="card__title">Espresso</h3>
             <ul class="card__list">
               <li class="card__list-item">
                 Macchiato<span class="card__list-divider"></span>$2.25
@@ -115,8 +117,7 @@
             </ul>
           </div>
           <div class="card">
-            <h2 class="card__title">Baked Goods</h2>
-
+            <h3 class="card__title">Baked Goods</h3>
             <ul class="card__list">
               <li class="card__list-item">
                 Almond Croissant<span class="card__list-divider"></span>$2
@@ -141,7 +142,7 @@
         </div>
       </section>
       <section id="recipes" class="recipes">
-        <h1 class="recipes__title">Recipes</h1>
+        <h2 class="recipes__title">Recipes</h2>
         <p class="recipes__subtitle">
           Check out some recipes we've collected for your home-brewing
           convenience:
@@ -149,6 +150,7 @@
         <div class="recipes__videos">
           <div>
             <iframe
+              allowfullscreen
               class="recipes__iframe"
               src="https://www.youtube.com/embed/j6VlT_jUVPc"
             ></iframe>
@@ -159,6 +161,7 @@
           </div>
           <div>
             <iframe
+              allowfullscreen
               class="recipes__iframe"
               src="https://www.youtube.com/embed/st571DYYTR8"
             ></iframe>
@@ -170,7 +173,7 @@
         </div>
       </section>
       <section id="reservation" class="reservation">
-        <h1 class="reservation__title">Book a table</h1>
+        <h2 class="reservation__title">Book a table</h2>
         <div class="reservation__form">
           <div class="form">
             <fieldset class="form__fieldset">
@@ -232,7 +235,7 @@
         <div class="about__circle"></div>
         <div class="about__circle-animation-blurred"></div>
         <div class="about__container">
-          <div class="about__title">About the coffee shop</div>
+          <h2 class="about__title">About the coffee shop</h2>
           <div class="about__content">
             <div class="about__paragraph">
               <p>
@@ -258,8 +261,7 @@
           />
 
           <div>
-            <h1 class="footer__social-heading">Social media</h1>
-
+            <h2 class="footer__social-heading">Social media</h2>
             <ul class="footer__list">
               <li class="footer__list-item">
                 <img

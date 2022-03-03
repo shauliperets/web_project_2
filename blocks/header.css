@@ -5,6 +5,7 @@
   background-size: cover;
   display: flex;
   flex-direction: column;
+  padding-bottom: 40px;
 }
 
 .header__title {
@@ -13,7 +14,8 @@
   font-weight: 500;
   font-size: 60px;
   line-height: 72px;
-  width: 800px;
+  max-width: 800px;
+  padding: 0 0 0 80px;
 }
 
 .header__span-accent {
@@ -23,13 +25,12 @@
   font-size: 60px;
   line-height: 72px;
   color: #2f80ed;
+  display: block;
 }
 
 .header__image {
-  width: 500px;
-  position: relative;
-  left: 1000px;
-  top: -200px;
+  max-width: 650px;
+  padding: 0 5px 0 0;
 }
 
 .header__description {
@@ -39,11 +40,14 @@
   font-size: 20px;
   line-height: 30px;
   z-index: 1;
+  margin: 0;
+  padding: 0 0 0 80px;
 }
 
 .header__content {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .header__paragraph-wrapper {
@@ -61,17 +65,10 @@
 
 .header__address {
   padding: 40px 0px 0px 0px;
-
+  margin: 0;
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
-}
-
-.menu {
-  display: flex;
-  flex-direction: column;
-  background-color: #0a2750;
-  color: #ffffff;
 }
