@@ -1,9 +1,6 @@
 .card {
-  width: 600px;
-  display: inline-block;
-
+  min-width: 400px;
   vertical-align: top;
-
   padding: 50px 23px;
   margin: 0;
 }
@@ -34,11 +31,11 @@
   font-size: 16px;
   line-height: 20px;
   margin: 0;
-  padding: 0;
+  padding: 0 0 16px 0;
 }
 
 .card__list-divider {
   border-bottom: 1px solid white;
-  width: 100px;
+  width: 100px; /* min-width not work good here */
   flex-grow: 1;
 }

@@ -18,6 +18,7 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
+  padding-top: 32px;
 }
 
 .form__input {
@@ -29,7 +30,7 @@
   line-height: 30px;
   color: #838383;
   width: 385px;
-  padding: 10px 10px;
+  padding: 10px 10px; /* This size is not in the brief */
 }
 
 .form__button-fieldset {
@@ -42,7 +43,7 @@
 .form__button {
   width: 100%;
   padding: 20px;
-  border-radius: 4px;
+  border-radius: 4px; /* This by the the brief */
   background-color: #2f80ed;
   transition-property: opacity;
   transition-duration: 0.5s;
@@ -60,6 +61,7 @@
   align-items: center;
   gap: 12px;
   border: 0;
+  padding-top: 32px;
 }
 
 .form__checkbox {

@@ -13,8 +13,8 @@
   font-weight: bold;
   font-size: 16px;
   line-height: 20px;
-  margin: 0;
-  padding: 0 0 12px 0;
+  margin: 0 0 20px 0;
+  padding: 0;
 }
 
 .footer__list {
@@ -32,19 +32,24 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding-bottom: 20px;
+  padding-bottom: 108px;
 }
 
 .footer__list-item {
   display: flex;
   flex-direction: row;
   padding-bottom: 10px;
-  margin: 0;
+  margin: 16px 0 0 0;
   padding: 0;
 }
 
 .footer__social-icon {
   padding-right: 10px;
+}
+
+.footer__social-link {
+  color: white;
+  text-decoration: none;
 }
 
 .footer__social-link:hover {

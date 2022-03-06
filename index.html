@@ -11,8 +11,6 @@
     <link rel="icon" href="favicon.ico" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Noto+Serif&family=Shizuru&display=swap"
       rel="stylesheet"
@@ -35,29 +33,26 @@
         </nav>
 
         <div class="header__content">
-          <div>
-            <!--I dot not how arrange them without the extra div. I'm also asked in Slack, but the did told me else solution -->
-            <h1 class="header__title">
-              <span class="header__span-accent">Specialty coffee</span>
-              in the Practicum Library
-            </h1>
-            <p class="header__description">
-              Welcome to our study zone! We've got the coffee to energize you
-              and the cozy vibes to help you get creative.
-            </p>
-          </div>
-
-          <img
-            class="header__image"
-            src="images/inside_coffee_shop.png"
-            alt="Coffee shop header image"
-          />
+          <h1 class="header__title">
+            <span class="header__span-accent">Specialty coffee</span>
+            in the Practicum Library
+          </h1>
+          <p class="header__description">
+            Welcome to our study zone! We've got the coffee to energize you and
+            the cozy vibes to help you get creative.
+          </p>
         </div>
+        <img
+          class="header__image"
+          src="images/inside_coffee_shop.png"
+          alt="Coffee shop header image"
+        />
+
         <div class="header__paragraph-wrapper">
-          <div>
-            <h2>Hours:</h2>
-            <p>Monday Friday (10:00 19:00)</p>
-            <p>Saturday Sunday (11:00 18:00)</p>
+          <div class="header__paragraph">
+            <h2 class="header__paragraph_title">Hours:</h2>
+            <p class="header__paragraph_item">Monday Friday (10:00 19:00)</p>
+            <p class="header__paragraph_item">Saturday Sunday (11:00 18:00)</p>
           </div>
           <p class="header__address">
             200 Success Avenue, The Town of Practicum
@@ -75,24 +70,29 @@
             <h3 class="card__title">Filter</h3>
             <ul class="card__list">
               <li class="card__list-item">
-                <span>Regular (12 oz)</span
-                ><span class="card__list-divider"></span><span>$1</span>
+                <span>Regular (12 oz)</span>
+                <span class="card__list-divider"></span>
+                $1
               </li>
               <li class="card__list-item">
-                Large (16 oz) <span class="card__list-divider"></span
-                ><span>$1.25</span>
+                Large (16 oz)
+                <span class="card__list-divider"></span>
+                $1.25
               </li>
               <li class="card__list-item">
-                NL (20 oz)<span class="card__list-divider"></span
-                ><span>$1.5</span>
+                NL (20 oz)
+                <span class="card__list-divider"></span>
+                $1.5
               </li>
               <li class="card__list-item">
-                Party-size (24 oz, decaf)<span class="card__list-divider"></span
-                ><span>$1.75</span>
+                Party-size (24 oz, decaf)
+                <span class="card__list-divider"> </span>
+                $1.75
               </li>
               <li class="card__list-item">
-                Iced Coffee (16 oz)<span class="card__list-divider"></span
-                ><span>$1.25</span>
+                Iced Coffee (16 oz)
+                <span class="card__list-divider"></span>
+                $1.25
               </li>
             </ul>
           </div>
@@ -100,19 +100,20 @@
             <h3 class="card__title">Espresso</h3>
             <ul class="card__list">
               <li class="card__list-item">
-                Macchiato<span class="card__list-divider"></span>$2.25
+                Macchiato
+                <span class="card__list-divider"></span>$2.25
               </li>
               <li class="card__list-item">
-                Cortado<span class="card__list-divider"></span>$2.5
+                Cortado
+                <span class="card__list-divider"></span>$2.5
               </li>
               <li class="card__list-item">
-                Mocha<span class="card__list-divider"></span>$3
+                Mocha
+                <span class="card__list-divider"></span>$3
               </li>
               <li class="card__list-item">
-                Sunrise in the Bay Area (decaf)<span
-                  class="card__list-divider"
-                ></span
-                >$10
+                Sunrise in the Bay Area (decaf)
+                <span class="card__list-divider"></span>$10
               </li>
             </ul>
           </div>
@@ -120,22 +121,28 @@
             <h3 class="card__title">Baked Goods</h3>
             <ul class="card__list">
               <li class="card__list-item">
-                Almond Croissant<span class="card__list-divider"></span>$2
+                Almond Croissant
+                <span class="card__list-divider"></span>$2
               </li>
               <li class="card__list-item">
-                Banana Bread<span class="card__list-divider"></span>$1.75
+                Banana Bread
+                <span class="card__list-divider"></span>$1.75
               </li>
               <li class="card__list-item">
-                Key Lime Pie<span class="card__list-divider"></span>$3
+                Key Lime Pie
+                <span class="card__list-divider"></span>$3
               </li>
               <li class="card__list-item">
-                Blue Velvet Cake<span class="card__list-divider"></span>$3.75
+                Blue Velvet Cake
+                <span class="card__list-divider"></span>$3.75
               </li>
               <li class="card__list-item">
-                Web Cookie<span class="card__list-divider"></span>$2
+                Web Cookie
+                <span class="card__list-divider"></span>$2
               </li>
               <li class="card__list-item">
-                Fresh Bug’uette<span class="card__list-divider"></span>$0.25
+                Fresh Bug’uette
+                <span class="card__list-divider"></span>$0.25
               </li>
             </ul>
           </div>
@@ -175,7 +182,7 @@
       <section id="reservation" class="reservation">
         <h2 class="reservation__title">Book a table</h2>
         <div class="reservation__form">
-          <div class="form">
+          <form class="form">
             <fieldset class="form__fieldset">
               <label for="name" class="form__label">Name *</label>
               <input
@@ -185,8 +192,6 @@
                 placeholder="Name Surname"
                 required
               />
-            </fieldset>
-            <fieldset class="form__fieldset">
               <label for="gestes" class="form__label">Number of gest *</label>
               <input
                 id="gestes"
@@ -195,18 +200,14 @@
                 placeholder="1-8"
                 required
               />
-            </fieldset>
-            <fieldset class="form__fieldset">
               <label for="datetime" class="form__label">Date & Time *</label>
               <input
                 id="datetime"
                 class="form__input"
-                type="text"
+                type="date"
                 placeholder="dd.mm.yyyy"
                 required
               />
-            </fieldset>
-            <fieldset class="form__fieldset">
               <label for="email" class="form__label">Your email *</label>
               <input
                 id="email"
@@ -217,7 +218,7 @@
               />
             </fieldset>
             <fieldset class="form__button-fieldset">
-              <button type="button" class="form__button">Book a table</button>
+              <button type="submit" class="form__button">Book a table</button>
             </fieldset>
             <fieldset class="form__checkbox-fieldset">
               <input
@@ -225,10 +226,11 @@
                 class="form__checkbox"
                 type="checkbox"
                 name="checkbox-terms"
+                required
               />
               <label for="checkbox-terms">I agree with the terms of use</label>
             </fieldset>
-          </div>
+          </form>
         </div>
       </section>
       <section class="about">
@@ -237,18 +239,18 @@
         <div class="about__container">
           <h2 class="about__title">About the coffee shop</h2>
           <div class="about__content">
-            <div class="about__paragraph">
-              <p>
-                Our coffee shop is located in the Practicum Library's hall. It
-                features 6 tables and free WiFi
-              </p>
-              <p>Our main mission is keeping guests cozy and energized.</p>
-              <p>
-                Besides that, we try to reduce our environmental impact — so we
-                don't sell single-use cups. But you can buy one of our reusable
-                cups!
-              </p>
-            </div>
+            <p class="about__paragraph">
+              Our coffee shop is located in the Practicum Library's hall. It
+              features 6 tables and free WiFi
+            </p>
+            <p class="about__paragraph">
+              Our main mission is keeping guests cozy and energized.
+            </p>
+            <p class="about__paragraph">
+              Besides that, we try to reduce our environmental impact — so we
+              don't sell single-use cups. But you can buy one of our reusable
+              cups!
+            </p>
           </div>
         </div>
       </section>
@@ -269,7 +271,7 @@
                   src="./images/facebook_white.svg"
                   alt="Facebook icon"
                 />
-                <span class="footer__social-link">Facebook</span>
+                <a href="#" class="footer__social-link">Facebook</a>
               </li>
               <li class="footer__list-item">
                 <img
@@ -277,12 +279,12 @@
                   src="./images/instagram_white.svg"
                   alt="Instagram icon"
                 />
-                <span class="footer__social-link">Instagram</span>
+                <a href="#" class="footer__social-link">Instagram</a>
               </li>
             </ul>
           </div>
         </div>
-        <div class="footer__copyright">Shaul Perets</div>
+        <p class="footer__copyright">Shaul Perets</p>
       </footer>
     </div>
   </body>

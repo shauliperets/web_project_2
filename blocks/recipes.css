@@ -1,7 +1,7 @@
 .recipes {
   display: flex;
   flex-direction: column;
-  padding: 100px 0px 215px 80px; /* This according to the brief. */
+  padding: 100px 80px 215px 80px; /* This according to the brief. */
   background-image: url(../images/background_recipes.svg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -13,8 +13,8 @@
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
-  margin: 0;
   padding: 0;
+  margin: 0 0 24px 0;
 }
 
 .recipes__subtitle {
@@ -36,7 +36,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin: 0;
+  margin: 24px 0 0 0;
   padding: 0;
 }
 
