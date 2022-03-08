@@ -32,16 +32,15 @@
           </div>
         </nav>
 
-        <div class="header__content">
-          <h1 class="header__title">
-            <span class="header__span-accent">Specialty coffee</span>
-            in the Practicum Library
-          </h1>
-          <p class="header__description">
-            Welcome to our study zone! We've got the coffee to energize you and
-            the cozy vibes to help you get creative.
-          </p>
-        </div>
+        <h1 class="header__title">
+          <span class="header__span-accent">Specialty coffee</span>
+          in the Practicum Library
+        </h1>
+        <p class="header__description">
+          Welcome to our study zone! We've got the coffee to energize you and
+          the cozy vibes to help you get creative.
+        </p>
+
         <img
           class="header__image"
           src="images/inside_coffee_shop.png"
@@ -49,12 +48,12 @@
         />
 
         <div class="header__paragraph-wrapper">
-          <div class="header__paragraph">
-            <h2 class="header__paragraph-title">Hours:</h2>
-            <p class="header__paragraph-item">Monday Friday (10:00 19:00)</p>
-            <p class="header__paragraph-item">Saturday Sunday (11:00 18:00)</p>
+          <div class="header__paragraph-hours">
+            <h2 class="header__paragraph">Hours:</h2>
+            <p class="header__paragraph">Monday Friday (10:00 19:00)</p>
+            <p class="header__paragraph">Saturday Sunday (11:00 18:00)</p>
           </div>
-          <p class="header__address">
+          <p class="header__paragraph">
             200 Success Avenue, The Town of Practicum
           </p>
         </div>
@@ -70,7 +69,7 @@
             <h3 class="card__title">Filter</h3>
             <ul class="card__list">
               <li class="card__list-item">
-                <span>Regular (12 oz)</span>
+                Regular (12 oz)
                 <span class="card__list-divider"></span>
                 $1
               </li>
@@ -183,7 +182,7 @@
         <h2 class="reservation__title">Book a table</h2>
         <div class="reservation__form">
           <form class="form">
-            <fieldset class="form__fieldset">
+            <fieldset class="form__fieldset_input">
               <label for="name" class="form__label">Name *</label>
               <input
                 id="name"
@@ -201,13 +200,14 @@
                 required
               />
               <label for="datetime" class="form__label">Date & Time *</label>
+              <!--------------- Date type mot pass W3C validator ---------------->
               <input
                 id="datetime"
                 class="form__input"
                 type="text"
                 placeholder="dd.mm.yyyy"
                 required
-              /><!-- Date type mot pass W3C validator -->
+              /><!--------------- Date type mot pass W3C validator ---------------->
               <label for="email" class="form__label">Your email *</label>
               <input
                 id="email"
@@ -217,10 +217,10 @@
                 required
               />
             </fieldset>
-            <fieldset class="form__button-fieldset">
+            <fieldset class="form__fieldset_button">
               <button type="submit" class="form__button">Book a table</button>
             </fieldset>
-            <fieldset class="form__checkbox-fieldset">
+            <fieldset class="form__fieldset_checkbox">
               <input
                 id="checkbox-terms"
                 class="form__checkbox"
@@ -236,22 +236,20 @@
       <section class="about">
         <div class="about__circle"></div>
         <div class="about__circle-animation-blurred"></div>
-        <div class="about__container">
-          <h2 class="about__title">About the coffee shop</h2>
-          <div class="about__content">
-            <p class="about__paragraph">
-              Our coffee shop is located in the Practicum Library's hall. It
-              features 6 tables and free WiFi
-            </p>
-            <p class="about__paragraph">
-              Our main mission is keeping guests cozy and energized.
-            </p>
-            <p class="about__paragraph">
-              Besides that, we try to reduce our environmental impact — so we
-              don't sell single-use cups. But you can buy one of our reusable
-              cups!
-            </p>
-          </div>
+        <h2 class="about__title">About the coffee shop</h2>
+        <div class="about__content">
+          <p class="about__paragraph">
+            Our coffee shop is located in the Practicum Library's hall. It
+            features 6 tables and free WiFi
+          </p>
+          <p class="about__paragraph">
+            Our main mission is keeping guests cozy and energized.
+          </p>
+          <p class="about__paragraph">
+            Besides that, we try to reduce our environmental impact — so we
+            don't sell single-use cups. But you can buy one of our reusable
+            cups!
+          </p>
         </div>
       </section>
       <footer id="footer" class="footer">
@@ -266,20 +264,24 @@
             <h2 class="footer__social-heading">Social media</h2>
             <ul class="footer__list">
               <li class="footer__list-item">
-                <img
-                  class="footer__social-icon"
-                  src="./images/facebook_white.svg"
-                  alt="Facebook icon"
-                />
-                <a href="#" class="footer__social-link">Facebook</a>
+                <a href="#" class="footer__social-link">
+                  <img
+                    class="footer__social-icon"
+                    src="./images/facebook_white.svg"
+                    alt="Facebook icon"
+                  />
+                  Facebook
+                </a>
               </li>
               <li class="footer__list-item">
-                <img
-                  class="footer__social-icon"
-                  src="./images/instagram_white.svg"
-                  alt="Instagram icon"
-                />
-                <a href="#" class="footer__social-link">Instagram</a>
+                <a href="#" class="footer__social-link">
+                  <img
+                    class="footer__social-icon"
+                    src="./images/instagram_white.svg"
+                    alt="Instagram icon"
+                  />
+                  Instagram
+                </a>
               </li>
             </ul>
           </div>

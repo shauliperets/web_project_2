@@ -1,5 +1,5 @@
 .card {
-  min-width: 400px;
+  min-width: 600px;
   vertical-align: top;
   padding: 50px 23px;
   margin: 0;
@@ -12,7 +12,7 @@
   font-weight: bold;
   font-size: 20px;
   line-height: 30px;
-  padding: 0px 0px 10px 0px;
+  padding: 0px 0px 32px 0px;
   margin: 0;
 }
 
