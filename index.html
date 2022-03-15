@@ -181,8 +181,9 @@
       <section id="reservation" class="reservation">
         <h2 class="reservation__title">Book a table</h2>
         <div class="reservation__form">
-          <form class="form">
-            <fieldset class="form__fieldset-input">
+          <form class="form form__fieldset">
+            <!--------------- I'm tried to do what i think you said, but I don't truly understand what do you want here ---------------->
+            <fieldset class="form__fieldset_input">
               <label for="name" class="form__label">Name *</label>
               <input
                 id="name"
@@ -200,14 +201,14 @@
                 required
               />
               <label for="datetime" class="form__label">Date & Time *</label>
-              <!--------------- Date type mot pass W3C validator ---------------->
+              <!--------------- Date type not pass W3C validator ---------------->
               <input
                 id="datetime"
                 class="form__input"
                 type="text"
                 placeholder="dd.mm.yyyy"
                 required
-              /><!--------------- Date type mot pass W3C validator ---------------->
+              /><!--------------- Date type not pass W3C validator ---------------->
               <label for="email" class="form__label">Your email *</label>
               <input
                 id="email"
@@ -217,10 +218,10 @@
                 required
               />
             </fieldset>
-            <fieldset class="form__fieldset-button">
+            <fieldset class="form__fieldset_button">
               <button type="submit" class="form__button">Book a table</button>
             </fieldset>
-            <fieldset class="form__fieldset-checkbox">
+            <fieldset class="form__fieldset_checkbox">
               <!-- Modifier not pass the Yandex BEM authentication  -->
               <input
                 id="checkbox-terms"
